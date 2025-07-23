@@ -38,9 +38,7 @@
     /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
-    margin-top:24px ;
-    margin-left: 150px;
-    margin-right:150px ;
+   margin: 24px 150px;
 }
 
 .ul-li{
@@ -59,10 +57,35 @@
 .shop{
     color: #8987A1;
 }
+.sec-1{
+  margin: 120px 150px;
+  justify-content: center;
+}
+.bn-div1{
+    margin-top: 40px;
+}
+
 
 /* sheard styles */
 .display-flex{
     display: flex;
+
+}
+
+.pera{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.bn-title{
+    font-size: 4rem;
+    font-weight: 600px;
+    width: 100%;
+    
+}
+.bn-title-col{
+    color: #E95A08;
 }
 
 
@@ -76,5 +99,9 @@
     }
     .a{
         display: none;
+    }
+    .sec-1{
+        display:flex;
+        flex-direction: column-reverse;
     }
 }
