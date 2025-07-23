@@ -1,0 +1,80 @@
+/* noto serif */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-noto {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+/* inter */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans-inter {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+
+
+
+
+/* header */
+/* nav */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top:24px ;
+    margin-left: 150px;
+    margin-right:150px ;
+}
+
+.ul-li{
+    width: 515px;
+    height: 60px;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.a{
+    text-decoration: none;
+    
+}
+.home{
+    color: #252432;
+}
+.shop{
+    color: #8987A1;
+}
+
+/* sheard styles */
+.display-flex{
+    display: flex;
+}
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .display-flex{
+    display: flex;
+    }
+    .a{
+        display: none;
+    }
+}
