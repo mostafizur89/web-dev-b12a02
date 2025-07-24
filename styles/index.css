@@ -183,8 +183,40 @@
 .challenge2{
     margin: 5px 0px 20px;
 }
-
-
+/* img */
+.challenge-img{
+    margin: 20px 150px;
+    gap: 20px;
+    margin-right: 20px;
+}
+.ch-img{
+    text-align: center;
+    position: relative;
+}
+.cimg{
+    border-radius: 14px;
+}
+.ch-h2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 1.5rem;
+    font-weight:500;
+    color: #FFFFFF;
+}
+.ch-h22{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.span{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
 
 /* sheard styles */
 .display-flex{
@@ -211,7 +243,9 @@
     color: #E95A08;
 }
 
-
+.afooter{
+    display: flex;
+}
 
 
 
@@ -219,14 +253,13 @@
 @media screen and (max-width:768px) {
     /* nav */
     .display-flex{
-    display: flex;
+      display: flex;
     }
     .a{
         display: none;
     }
     /* banner */
     .sec-1{
-        display:flex;
         flex-direction: column-reverse;
         
     }
@@ -240,11 +273,15 @@
         margin: 28px 10px;
     }
     /* footer */
-    .display-flex{
-        display: block;
+    .afooter{
+       display:block;
     }
+    
     /* challege1 */
     .stiker{
         display: none;
+    }
+    .cimg{
+        margin: 10px 100px;
     }
 }
