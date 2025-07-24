@@ -156,6 +156,34 @@
     list-style: none;
     gap: 10px;
 }
+/* challenge part */
+/* challenge1 */
+.challenge1{
+    margin: 210px 150px;
+    position: relative;
+    
+}
+.stiker{
+    height: 286px;
+    width: 286px;
+    margin: -150px 260px;
+    position: absolute;
+}
+.challenge1-container{
+    gap: 25px;
+}
+.challenge1-img{
+    height: 597px;
+    height: 540px;
+}
+.ch-ul{
+    padding-left: 15px;
+}
+/* challenge2 */
+.challenge2{
+    margin: 5px 0px 20px;
+}
+
 
 
 /* sheard styles */
@@ -214,5 +242,9 @@
     /* footer */
     .display-flex{
         display: block;
+    }
+    /* challege1 */
+    .stiker{
+        display: none;
     }
 }
