@@ -116,6 +116,48 @@
     color: white;
     border: none;
 }
+
+.flower-backgroun{
+    background-image:url(../assets/news-letter-bg.png);
+    height: 533px;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+.flower-title{
+    color: #FFFFFF;
+    
+}
+.flower-input{
+    margin-top: 10px;
+    row-gap:none;
+}
+.input-email{
+    padding: 13px 40px;
+    margin-right:-10px;
+}
+.btn-secondary{
+    background-color: #E95A08;
+    color: white;
+    padding: 15px 43px;
+    border: none;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+}
+.footer-div{
+    width: 30%;
+}
+.footer-ul{
+    list-style: none;
+    gap: 10px;
+}
+
+
 /* sheard styles */
 .display-flex{
     display: flex;
@@ -169,5 +211,8 @@
         grid-template-columns: repeat(2, 1fr);
         margin: 28px 10px;
     }
-    
+    /* footer */
+    .display-flex{
+        display: block;
+    }
 }
